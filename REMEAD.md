@@ -14,9 +14,28 @@
 *卸载模块：npm uninstall 模块名
 *查看依赖包：npm list
 *指定版本安装：npm install node-media-server@2.1.0  --save
-*package.json 生成： npm init --yes
+*package.json 生成命令： npm init --yes
     *文件中的dependencies放工具包
     * ^表示第一位版本号不变，后面两位取最新的 ^2.1.1
     * ~表示前两位不变，最后一个取最新 ~2.1.1
     * *表示全部取最新 *2.1.1
      指定版本，不加任何符号2.1.1
+
+##fs
+*fs.stat            检测是文件还是目录   
+*fs.mkdir           创建目录    
+*fs.writeFile       创建写入文件  
+*fs.appendFile      追加文件(如果文件不存在，会创建)  
+*fs.readdir         读取目录  
+*fs.readFile        读取文件
+*fs.rename          重命名;移动文件
+*fs.rmdir           删除目录  
+*fs.unlink          删除文件
+
+## Promise/async/await
+*async 作为一个关键字，放在函数前面，他只有一个作用，**返回一个Promise对象
+*Promise 成功会调用resolve，失败会调用reject,执行结**果会在then中
+*await 只能放在async函数里面，其实它后面可以放任何表**达式，不过我们更多的是放一个返回promise 对象的表达式，*它等待的是promise 对象的执行完毕，并返回结果
+##createReadStream读取流 /createWriteStream写入流
+#node 都在npmjs.com 中找
+
