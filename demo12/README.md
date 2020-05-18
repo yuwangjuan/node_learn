@@ -1,8 +1,8 @@
- ##cmd输入mongo,连接数据库成功
- ##show dbs 显示所有的数据库
- ##use xxx 创建数据库 eg:use itying 创建一个itying的数据库||使用这个数据库   
- ##db.user.insert({})插入数据
-##show collections 查看表里的集合
+ ##cmd输入mongo,连接数据库成功  
+ ##show dbs 显示所有的数据库   
+ ##use xxx 创建数据库 eg:use itying 创建一个itying的数据库||使用这个数据库     
+ ##db.user.insert({})插入数据   
+##show collections 查看表里的集合  
 ## db.xxx.drop() 删除集合eg: db.user.drop()删除user集合
 ##db.dropDatabase()
 ##查找age=25   db.user.find({"age":25})
