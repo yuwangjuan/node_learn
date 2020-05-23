@@ -4,4 +4,11 @@
 
 
 ##art-template/koa-bodyparser
+
+##path:'/news   
+##domain:'.baidu.com   
+##httpOnly:true true表示cookie只有服务器能访问  
+##maxAge:过期时间  
+## new Buffer('张三').toString('base64'))//转换成base64字符 
+## new Buffer('aGffdddcmxkIQ===',base64).toString()//还原 字符串
         
