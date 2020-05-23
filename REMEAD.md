@@ -37,7 +37,7 @@
 *Promise 成功会调用resolve，失败会调用reject,执行结**果会在then中   
 *await 只能放在async函数里面，其实它后面可以放任何表**达式，不过我们更多的是放一个返回promise 对象的表达式，*它等待的是promise 对象的执行完毕，并返回结果   
 ##createReadStream读取流 /createWriteStream写入流    
-#node 都在npmjs.com 中找    
+#node 都在npmjs.com 中找          
 
 
 
